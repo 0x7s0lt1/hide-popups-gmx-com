@@ -6,8 +6,13 @@
 // @match           *://*.gmx.com/*
 // ==/UserScript==
 
-document.body.insertAdjacentHTML('beforebegin',`
-<style>
-.dialogOverlay{ display: none !important; }
-</style>
-`)
+(function() {
+    'use strict';
+
+    document.body.insertAdjacentHTML('beforebegin',`
+        <style>
+            .dialogOverlay{ display: none !important; }
+        </style>
+    `)
+
+})();
