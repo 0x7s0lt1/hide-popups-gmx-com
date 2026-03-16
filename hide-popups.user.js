@@ -11,7 +11,8 @@
 
     document.body.insertAdjacentHTML('beforebegin',`
         <style>
-            .dialogOverlay{ display: none !important; }
+            .dialogOverlay { display: none !important; }
+            .modal-layer-inactivity { display: none !important; }
         </style>
     `)
 
