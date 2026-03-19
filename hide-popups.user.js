@@ -9,7 +9,7 @@
 (function() {
     'use strict';
 
-    document.body.insertAdjacentHTML('beforebegin',`
+    document.head.insertAdjacentHTML('beforeend',`
         <style>
             .dialogOverlay { display: none !important; }
             .modal-layer-inactivity { display: none !important; }
